@@ -1,0 +1,7 @@
+spring:
+  ai:
+    ollama:
+      base-url: ${OLLAMA_BASE_URL}
+      chat:
+        options:
+          model: ${OLLAMA_MODEL}
